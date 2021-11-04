@@ -16,20 +16,34 @@ nav{
     line-height: 70px;
 }
 
-.centralizza{
+.centralizza-contenuto{
     text-align: center;
+}
+
+.centralizza{
+    margin: 0 auto;
 }
 
 .corpo-centrale{
     width: 70%;
-    margin: 0 auto;
+}
+
+.text-white{
+    color: white;
+}
+
+button{
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: white;
 }
 
 /* <---------------------------------------------------------------> */
 
+
+/* ----jumbotron---- */
 .container{
     width: 1300px;
-    margin: 0 auto;
 }
 
 .jumbotron{
@@ -39,8 +53,7 @@ nav{
     background-size: cover;
 }
 
-
-
+/* ----navbar---- */
 .side-left{
     width: 15%;
     float: left;
@@ -67,8 +80,7 @@ li{
     
 }
 
-span{
-    color: white;
+.text-lista{
     padding: 0 10px;
 }
 
@@ -76,8 +88,33 @@ span{
     float: right;
 }
 
-button{
-    padding: 5px 10px;
-    border-radius: 20px;
-    background-color: white;
+/* ----fine navbar---- */
+
+.jumbotron-text{
+    width: 60%;
+    margin-top: 70px;
 }
+
+.p-jumbotron{
+    padding: 20px 0;
+}
+
+h1{
+    padding-bottom: 10px;
+}
+
+.big-black, .big-white{
+    padding: 15px;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+.big-black{
+    background-color: black;
+}
+
+.big-white::before{
+    content: '\1F817   ';
+    font-weight: bold;
+}
+/* ----fine jumbotron */
