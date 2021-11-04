@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: black 1px solid;
+}
+
+.row::after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.conenuto{
+    height: 100%;
+}
+
+
+/* <---------------------------------------------------------------> */
+
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.jumbotron{
+    width: 100%;
+    height: 450px;
+    background: url("../img/jumbo.png") no-repeat 50% 80%;
+    background-size: cover;
+}
+
+.corpo-centrale{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.sidebar{
+    width: 15%;
+    float: left;
+}
+
+.center{
+    width: 70%;
+    float: left;
+}
+
+.logo{
+    width: 100%;
+
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+}
+
+span{
+    line-height: 100%;
+}
+
