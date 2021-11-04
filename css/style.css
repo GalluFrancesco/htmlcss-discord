@@ -5,6 +5,10 @@
     border: black 1px solid;
 }
 
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .row::after {
     content:"";
     display: table;
@@ -16,6 +20,9 @@ nav{
     line-height: 70px;
 }
 
+.colonna{
+    margin-bottom: 20px;
+}
 .centralizza-contenuto{
     text-align: center;
 }
@@ -38,6 +45,25 @@ button{
     background-color: white;
 }
 
+.lf{
+    float: left;
+}
+
+.rg{
+    float: right;
+}
+
+.larga{
+    width: 65%;
+}
+
+.stretta{
+    width: 25%;
+    padding-top: 30px;
+}
+
+
+
 /* <---------------------------------------------------------------> */
 
 
@@ -54,9 +80,13 @@ button{
 }
 
 /* ----navbar---- */
-.side-left{
+
+.jumbotron{
+    margin-bottom: 50px;
+}
+
+.side .lf{
     width: 15%;
-    float: left;
 }
 
 .center{
@@ -84,9 +114,6 @@ li{
     padding: 0 10px;
 }
 
-.side-right {
-    float: right;
-}
 
 /* ----fine navbar---- */
 
@@ -114,7 +141,43 @@ h1{
 }
 
 .big-white::before{
-    content: '\1F817   ';
+    content: '\1F817';
     font-weight: bold;
 }
 /* ----fine jumbotron */
+
+/* ----main---- */
+.lf img, .rg img{
+    width: 100%;
+}
+
+h2{
+    font-size: 230%;
+    margin-bottom: 20px;
+}
+
+.background{
+    width: 100%;
+    background-color:#D8D8D8;
+}
+
+.ondainterna{
+    height: 90px;
+    width: 100%;  
+    margin-top: 50px;     
+}
+
+.ondaesterna{
+    display: block;
+    height: 90px;  
+    opacity: 0.15;
+}
+
+.ondainterna img{
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
+}
+
+.margine{
+    margin-bottom: 50px;
+}
