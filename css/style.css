@@ -11,10 +11,19 @@
     clear: both;
 }
 
-.conenuto{
-    height: 100%;
+nav{
+    height: 70px;
+    line-height: 70px;
 }
 
+.centralizza{
+    text-align: center;
+}
+
+.corpo-centrale{
+    width: 70%;
+    margin: 0 auto;
+}
 
 /* <---------------------------------------------------------------> */
 
@@ -30,12 +39,9 @@
     background-size: cover;
 }
 
-.corpo-centrale{
-    width: 70%;
-    margin: 0 auto;
-}
 
-.sidebar{
+
+.side-left{
     width: 15%;
     float: left;
 }
@@ -46,19 +52,32 @@
 }
 
 .logo{
-    width: 100%;
+    
+    vertical-align: middle;
 
 }
 
 ul{
     list-style: none;
+    
 }
 
 li{
     display: inline-block;
+    
 }
 
 span{
-    line-height: 100%;
+    color: white;
+    padding: 0 10px;
 }
 
+.side-right {
+    float: right;
+}
+
+button{
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: white;
+}
