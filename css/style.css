@@ -180,3 +180,19 @@ h2{
 .margine{
     margin-bottom: 50px;
 }
+
+.stars{
+    background: url('../img/stars.svg') no-repeat;
+    background-size: 100%;
+    height: 40px;
+    width: 370px;
+}
+
+h3{
+    padding: 25px 0;
+}
+
+#azzurro{
+    margin-top: 35px;
+    background-color: cornflowerblue;
+}
