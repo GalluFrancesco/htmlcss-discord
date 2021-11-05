@@ -159,6 +159,7 @@ h2{
 .background{
     width: 100%;
     background-color:#F2F2F2;
+    padding-bottom: 100px;
 }
 
 .ondainterna{
@@ -193,6 +194,60 @@ h3{
 }
 
 #azzurro{
-    margin-top: 35px;
+    margin-top: 20px;
     background-color: cornflowerblue;
 }
+/* ----fine main---- */
+
+/* ----footer---- */
+
+.corpo{
+    width: 80%;
+}
+
+.background-ftr{
+    background-color: #22272A;
+}
+
+.prima-colonna{
+    width: 40%;
+}
+
+.colonna-n{
+    width: 15%;
+}
+
+h3{
+    color: #6A88DD;
+}
+
+.bandiera{
+    height: 15px;
+    margin-right: 5px;
+}
+
+.bandiera > img{
+    height: 100%;
+}
+
+.allinea{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.lingua{
+    line-height: 15px;
+    font-size: 70%;
+}
+
+.freccia{
+    line-height: 15px;
+    font-size: 70%;
+}
+
+.fa{
+    margin-top: 10px;
+    width: 50px;
+    text-decoration: none;
+    color: white;
+  }
